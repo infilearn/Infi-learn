@@ -737,3 +737,162 @@ footer{
     position:relative;
     left:  16%;
 }
+
+/* Index Page End */
+
+/* SignUp page Css */
+
+.signup-section{
+    padding-top: 80px;
+}
+.signup-div{
+    padding: 2% 5% 2% 5%;
+    background-color: #ffebed;
+}
+.signup-div-box{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
+.signup-box-branding{
+    height: 100%;
+    width: 300px;
+    background-color: #fe4a55;
+    padding: 2%;
+    text-align: center;
+}
+.signup-box-branding-title{
+    padding: 0px 0;
+}
+.signup-box-branding-title h2{
+    color: #221638;
+    font-size: 38px;
+    font-weight: 500;
+}
+.signup-box-branding-welcome h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.signup-box-branding-welcome h2{
+    color: #221638;
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.signup-box-phone-img{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-image: url('/content/images/svg/signup-form.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: multiply;
+    position: relative;
+    bottom: 80px;
+}
+
+/* Signup Box Inputs */
+.signup-box-inputs{
+    padding: 2%;
+    height: 100%;
+    width: 70%;
+}
+.signup-box-input-title{
+    padding: 0px 0;
+}
+.signup-box-input-title h3{
+    color: #221638;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 35px;
+}
+.signup-box-all-inputs{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.signup-box-input-boxs{
+    display: flex;
+    gap: 45px;
+    padding-left: 20px;
+}
+.signup-box-input-boxs label{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.signup-input{
+    height: 35px;
+    width: 350px;
+    border: 0.5px solid #fe4a55;
+    color: black;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px 0px;
+    padding: 3px 7px;
+    font-size: 16px;
+    background-color: #ffebed;
+}
+
+.signupbox-dob input{
+    width: 100px;
+    text-align: center;
+    height: 35px;
+    border: 0.5px solid #fe4a55;
+    color: black;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px 0px;
+    padding: 3px 7px;
+    font-size: 16px;
+    background-color: #ffebed;
+    margin-right: 20px;
+}
+.signupbox-gender{
+    margin-left: -19px;
+}
+.signupbox-gender input{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #fe4a55;
+    color: black;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffebed;
+    margin-top: 15px;
+    margin-right: 15px;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+input[type='radio']:checked:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 15px;
+    top: 2px;
+    left: 0px;
+    position: relative;
+    background-color: #fe4a55;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.signupbox-gender span{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
