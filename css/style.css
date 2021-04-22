@@ -183,7 +183,7 @@ footer{
 }
 .footer-copyright-and-policy{
     display: flex;
-    padding: 2% 0% 2% 0%;
+    padding: 2% 0% 0% 0%;
     gap: 50%;
 }
 .footer-copyright p{
