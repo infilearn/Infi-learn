@@ -1,3 +1,17 @@
+/* Fonts */
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/nunito/NunitoSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('fonts/lora/Lora-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -5,7 +19,7 @@ body{
 }
 header{
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     background-color: white;
     height: 60px;
     max-height: 60px;
@@ -15,6 +29,8 @@ header{
     left: 0px;
     z-index: 5;
     box-shadow: #666 0px 2px 14px -5px;
+    font-family: 'Lora';
+    font-weight: 700;
 }
 .desktop-header{
     display: grid;
@@ -25,10 +41,9 @@ header{
     justify-content: center;
     align-items: center;
 }
-.desktop-logo h1{
-    margin: 0px;
+.infilearn-logo{
+    /*  */
 }
-
 .desktop-navigation-bar{
     margin: auto;
     justify-content: center;
@@ -38,12 +53,12 @@ header{
     padding: 0px;
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 35px;
 }
 .desktop-navbar-links a{   /* a - links */
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 .desktop-navbar-links a:hover{
@@ -66,6 +81,10 @@ header{
     font-size: 19px;
     cursor: pointer;
     padding-bottom: 3px;
+    font-family: 'Lora';
+}
+.header-login-button:hover{
+    background-color:#221638;
 }
 .login-button-svg{
     padding: 0px;
@@ -79,8 +98,8 @@ footer{
     margin: 0px;
     background-color: #211638;
     color: white;
-    height: 50%;
-    max-height: 50%;
+    height: 55%;
+    max-height: 55%;
     width: 100%;
 }
 .footer{
@@ -96,12 +115,13 @@ footer{
 .footer-branding-title{
     color: white;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: 'Lora';
 }
 .footer-branding-info{
     color: white;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
 }
 .footer-branding-links{
     margin-top: 30px;
@@ -113,9 +133,10 @@ footer{
 .footer-branding-links a{
     color: #fe4a55;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     text-decoration: none;
     cursor: pointer;    
+
 }
 .horizontal-footer-hr{
     height: 16px;
@@ -130,7 +151,10 @@ footer{
     padding: 0px;
     margin-top: 20px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
+}
+.footer-branding-social-media img:hover{
+    transform: scale(1.25);
 }
 .footer-explore-nav{
     line-height: 25px;
@@ -140,6 +164,7 @@ footer{
     color: white;
     font-size: 20px;
     font-weight: 200;
+    font-family: 'Lora';
 }
 .explore-nav-links{
     list-style: none;
@@ -149,8 +174,8 @@ footer{
     color: white;
     text-decoration: none;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
+    font-family: 'Nunito';
+    font-weight: 400;
     cursor: pointer;
 }
 .footer-contact-us{
@@ -162,6 +187,7 @@ footer{
     color: white;
     font-size: 20px;
     font-weight: 200;
+    font-family: 'Lora';
 }
 .footer-contact-us-links{
     list-style: none;
@@ -172,7 +198,7 @@ footer{
     text-decoration: none;
     cursor: pointer;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     font-weight: 200;
     line-height: 30px;
 }
@@ -189,7 +215,7 @@ footer{
 .footer-copyright p{
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     font-weight: 200;
 }
 .footer-copyright span{
@@ -209,7 +235,7 @@ footer{
 .footer-privacy-policy-links a{
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     font-weight: 200;
     text-decoration: none;
 }
@@ -222,7 +248,7 @@ footer{
 /* Advertising section */
 
 .advertising-section{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .advertising-div{
     height: 80%;
@@ -249,11 +275,14 @@ footer{
     color: white;
     font-size: 28px;
     margin: 10px 0px 15px 0px;
+    font-family: 'Lora';
+    font-weight: 200;
 }
 .get-started-div p{
     color: white;
     font-size: 18px;
     margin: 10px 0px 15px 0px;
+    font-family: 'Lora';
 }
 .advertising-section-get-started-btn{
     height: 40px;
@@ -265,6 +294,7 @@ footer{
     border-radius: 5px;
     outline: none;
     cursor: pointer;
+    font-family: 'Lora';
 }
 
 .advertising-pattern-div{
@@ -308,17 +338,18 @@ footer{
     gap: 20px;
 }
 .site-content-viewbox{
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 280px;
     background-color: white;
     border: none;
     border-radius: 10px;
     box-shadow: #666 0px 2px 16px -5px;
     padding: 15px;
+    font-family: 'Nunito';
 }
 .viewbox-common-img-bg{
     padding: 10px 15px 5px 15px;
-    height: 120px;
+    height: 100px;
     background-image: url('../content/shapes/common-bg-viewbox.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -329,7 +360,7 @@ footer{
     padding: 10px;
     margin: auto;
     margin-top: 10px;
-    height: 75px;
+    height: 60px;
     background-image: url('../content/icons/monitor.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -340,7 +371,7 @@ footer{
     padding: 10px;
     margin: auto;
     margin-top: 10px;
-    height: 75px;
+    height: 60px;
     background-image: url('../content/icons/books.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -351,7 +382,7 @@ footer{
     padding: 10px;
     margin: auto;
     margin-top: 10px;
-    height: 75px;
+    height: 60px;
     background-image: url('../content/icons/clock.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -365,8 +396,8 @@ footer{
 .viewbox-title h2{
     font-size: 22px;
     color: black;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-family: 'Nunito';
 }
 .viewbox-title p{
     font-size: 17px;
@@ -383,8 +414,8 @@ footer{
     text-decoration: none;
     color: #fe4a55;
     font-size: 22px;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-family: 'Nunito';
 }
 
 .site-content-short-branding{
@@ -401,18 +432,19 @@ footer{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    font-family: 'Lora';
 }
 .branding-desc{
     color: #979797;
     font-size: 18px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nunito';
 }
 .branding-info{
     color: #fe4a55;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nunito';
 }
 
 .site-content-pattern{
@@ -425,6 +457,7 @@ footer{
     background-blend-mode: multiply;
     position: relative;
     left: -20px;
+    bottom: 50px;
 }
 
 .section-2-hr{
@@ -438,7 +471,7 @@ footer{
 .grade-section{
     background-color: white;
     width: 100%;
-    height: 40%;
+    height: 45%;
 }
 .grade-div{
     margin: auto;
@@ -453,6 +486,7 @@ footer{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    font-family: 'Lora';
 }
 .grade-div-all-grades{
     padding: 20px;
@@ -478,30 +512,32 @@ footer{
     text-align: center;
     color: #979797;
     font-size: 18px;
+    font-family: 'Lora';
 }
 .grade-div-grade span{
     font-size: 29px;
     color: #fe4a55;
     font-weight: bold;
+    font-family: 'Lora';
 }
 
 .grade-section-pattern{
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
     background-image: url('../content/shapes/grade-shape.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: multiply;
     position: relative;
-    top: -80px;
+    top: -100px;
     left: 97%;
 }
 
 /* Stats Section */
 
 .stats-section{
-    height: 37%;
+    height: 43%;
     width: 100%;
     background-color: #221638;
 }
@@ -524,6 +560,7 @@ footer{
     height: 200px;
     width: 150px;
     text-align: center;
+    font-family: 'Lora';
 }
 .stat-logo-bg{
     height: 90px;
@@ -568,11 +605,15 @@ footer{
 .stat-title h2{
     font-size: 26px;
     color: white;
+    font-family: 'Lora';
+    font-weight: 200;
 }
 .stat-count h2{
     font-size: 29px;
     color: white;
     margin: 10px 0px 10px 0px;
+    font-family: 'Lora';
+    font-weight: 200;
 }
 .stat-pattern{
     height: 30px;
@@ -583,14 +624,15 @@ footer{
     background-size: contain;
     background-blend-mode: multiply;
     position: relative;
-    top: -60px;
+    top: -50px;
+    left: 15%;
 }
 
 /* Become instructor section */ 
 
 .become-instructor-section{
     background-color: white;
-    height: 90%;
+    height: 95%;
     width: 100%;
 }
 .become-instructor-div{
@@ -606,7 +648,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: left;
-    line-height: 15px;
+    line-height: 25px;
     position: relative;
     top: -100px;
 }
@@ -614,14 +656,14 @@ footer{
 .become-instructor-info-title{
     color: #211638;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     font-weight: bolder;
 }
 .become-instructor-info-desc{
     color: black;
-    font-size: 16px;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito';
 }
 .become-instructor-info-button{
     height: 40px;
@@ -633,14 +675,14 @@ footer{
     outline: none;
     cursor: pointer;
     font-size: 15px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: 'Nunito';
 }
 .become-instructor-info-video-info{
     color: black;
     font-size: 16px;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: 'Nunito';
 }
 .become-instructor-info-video-info a{
     color: #fe4a55;
@@ -669,7 +711,7 @@ footer{
 }
 /* contact us secion */
 .contact-us-section{
-    height: 30%;
+    height: 37%;
     width: 100%;
     background-image: url('../content/images/pattern/contact-us-pattern.jpg');
     background-position: center;
@@ -692,16 +734,16 @@ footer{
 .contact-us-title{
     color: #221638;
     font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     font-stretch:expanded;
     font-weight: 600;
 }
 .contact-us-desc{
     color: black;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lora';
     font-stretch:expanded;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 .contact-us-button{
@@ -710,8 +752,8 @@ footer{
     background-color: #fe4a55;
     color: white;
     cursor: pointer;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: 'Nunito';
     border: none;
     border-radius: 4px;
 }
@@ -727,8 +769,8 @@ footer{
     top: -50px;
 }
 .contact-us-pattern-lines{
-    height: 240px;
-    width: 200px;
+    height: 260px;
+    width: 220px;
     background-image: url('../content/shapes/contact-us-lines.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -743,14 +785,14 @@ footer{
 /* SignUp page Css */
 
 .signup-section{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .signup-div{
     padding: 2% 5% 2% 5%;
     background-color: #ffebed;
 }
 .signup-div-box{
-    height: 80%;
+    height: 85%;
     width: 100%;
     background-color: white;
     display: flex;
@@ -768,20 +810,25 @@ footer{
 }
 .signup-box-branding-title h2{
     color: #221638;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 500;
+    margin-top: 5px;
+    font-family: 'Lora';
 }
 .signup-box-branding-welcome h3{
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 100;
     margin-bottom: 10px;
+    font-family: 'Nunito';
 }
 .signup-box-branding-welcome h2{
     color: #221638;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 100;
     margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Nunito';
 }
 .signup-box-phone-img{
     margin: auto;
@@ -812,11 +859,15 @@ footer{
     font-size: 30px;
     font-weight: 200;
     margin-top: 35px;
+    margin-top: 5px;
+    font-family: 'Lora';
+
 }
 .signup-box-all-inputs{
     margin: auto;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito';
 }
 .signup-box-input-boxs{
     display: flex;
@@ -826,7 +877,8 @@ footer{
 .signup-box-input-boxs label{
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito';
+    font-stretch:wider;
     font-weight: 100;
 }
 .signup-input{
@@ -840,28 +892,47 @@ footer{
     padding: 3px 7px;
     font-size: 16px;
     background-color: #ffebed;
+    font-family: 'Nunito';
 }
 
-.signupbox-dob input{
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+
+.signup-inputs{
     width: 100px;
     text-align: center;
     height: 35px;
-    border: 0.5px solid #fe4a55;
+    border: 1px solid #fe4a55;
     color: black;
     border-radius: 4px;
-    outline: none;
     margin: 10px 0px;
     padding: 3px 7px;
     font-size: 16px;
     background-color: #ffebed;
     margin-right: 20px;
+    font-family: 'Nunito';
+    text-align: center;
 }
 .signupbox-gender{
     margin-left: -19px;
 }
 .signupbox-gender input{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     text-align: center;
     border: 1px solid #fe4a55;
     color: black;
@@ -873,10 +944,11 @@ footer{
     content: '';
     display: inline-block;
     visibility: visible;
+    font-family: 'Nunito';
 }
 input[type='radio']:checked:after {
-    width: 11px;
-    height: 11px;
+    width: 13px;
+    height: 13px;
     border-radius: 15px;
     top: 2px;
     left: 0px;
@@ -890,7 +962,7 @@ input[type='radio']:checked:after {
 .signupbox-gender span{
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito';
     font-weight: 100;
     position: relative;
     bottom: 5px;
@@ -906,7 +978,7 @@ input[type='radio']:checked:after {
     color: white;
     cursor: pointer;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito';
     border: none;
     border-radius: 4px;
 }
@@ -917,8 +989,152 @@ input[type='radio']:checked:after {
 .login-modal-link p{
     color: rgba(0, 0, 0, 0.6);
     font-size: 18px;
+    font-family: 'Nunito';
 }
 .login-modal-link a{
     color: #fe4a55;
     text-decoration: none;
+    font-family: 'Nunito';
+}
+
+
+/* Login Modal */
+
+.modal {
+  background:rgba(0,0,0,0.7);
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  transition:all .5s ease-in-out;
+  opacity:0;
+  z-index:2;
+}
+.modal:target {
+  opacity:1;
+  transition:all .5s ease-in-out;
+  z-index:3;
+}
+.modal-content {
+  position:fixed;
+  top:50%;
+  left:50%;
+  height: 450px;
+  width: 380px;
+  background:#fff;
+  border-radius:4px;
+  transform:translate(-50%, -200%);
+  transition:all .5s ease-in-out;
+  perspective: 1000;
+  outline:1px solid transparent;
+  opacity:0;
+}
+.modal:target .modal-content {
+  transform:translate(-50%, -50%);
+  transition:all .5s ease-in-out;
+  transition-delay:.5s;
+  z-index:9999;
+  opacity:1;
+}
+.modal-close {
+  float:right;
+  text-decoration:none;
+  padding:22px 22px;
+  color:#424242;
+  font-weight:800;
+  transition:all .5s ease-in-out;
+  z-index:+1;
+  text-align:center;
+  border-radius:0 4px 0 0;
+  font-family: 'Nunito';
+
+}
+.modal-close:hover {
+  color:black;
+}
+.modal-content h3 {
+  padding:15px;
+  display:block;
+  text-align:center;
+  font-family: 'Lora';
+  border-bottom:1px solid #e0e0e0;
+  color:black;
+  font-size: 22px;
+  border-radius:4px 4px 0 0;
+  margin: 0px;
+}
+.modal-area {
+  padding:20px;
+}
+
+.modal-input{
+  padding-top: 5px;
+}
+.modal-input label{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-family: 'Nunito';
+  font-stretch:wider;
+  font-weight: 100;
+}
+.modal-input input{
+  height: 35px;
+  width: 100%;
+  border: 0.5px solid #fe4a55;
+  color: black;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px 0px;
+  padding: 3px 7px;
+  font-size: 16px;
+  background-color: #ffebed;
+  font-family: 'Nunito';
+}
+.modal-submit-forgot{
+  display: flex;
+  gap: 6%;
+  margin: 15px 0px 15px 0px;
+}
+.login-modal-btn{
+  height: 35px;
+  width: 180px;
+  background-color: #fe4a55;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Nunito';
+  border: none;
+  border-radius: 4px;
+}
+.modal-submit-forgot a{
+  font-size: 15px;
+  color: #fe4a55;
+  margin-top: 5px;
+  text-decoration: none;
+  font-family: 'Nunito';
+}
+.login-modal-hr{
+  width: 90%;
+  text-align: center;
+  color: #adadad;
+  background-color: #adadad;
+  border: 0.5px solid #adadad;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.modal-signup-page-link{
+  text-align: center;
+  margin-top: 35px;
+}
+.modal-signup-page-link p{
+  color: black;
+  font-size: 17px;
+  font-family: 'Nunito';
+}
+.modal-signup-page-link a{
+  color: #fe4a55;
+  font-size: 17px;
+  font-family: 'Nunito';
 }
