@@ -896,3 +896,29 @@ input[type='radio']:checked:after {
     bottom: 5px;
     right: 5px;
 }
+.signup-form-submit-button{
+    padding: 20px 0px 0px 20px;
+}
+.signup-form-submit-btn{
+    height: 40px;
+    width: 230px;
+    background-color: #fe4a55;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 4px;
+}
+.login-modal-link{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.login-modal-link p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+}
+.login-modal-link a{
+    color: #fe4a55;
+    text-decoration: none;
+}
