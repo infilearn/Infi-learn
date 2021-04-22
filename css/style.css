@@ -267,7 +267,7 @@ footer{
 .advertising-pattern-div{
     height: 300px;
     width: 300px;
-    background-image: url('./content/shapes/banner-shape.png');
+    background-image: url('../content/shapes/banner-shape.png');
     position: absolute;
     top:38%;
     left: 60%;
@@ -316,7 +316,7 @@ footer{
 .viewbox-common-img-bg{
     padding: 10px 15px 5px 15px;
     height: 120px;
-    background-image: url('./content/shapes./common-bg-viewbox.png');
+    background-image: url('../content/shapes../common-bg-viewbox.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -327,7 +327,7 @@ footer{
     margin: auto;
     margin-top: 10px;
     height: 75px;
-    background-image: url('./content/icons/monitor.png');
+    background-image: url('../content/icons/monitor.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -338,7 +338,7 @@ footer{
     margin: auto;
     margin-top: 10px;
     height: 75px;
-    background-image: url('./content/icons/books.png');
+    background-image: url('../content/icons/books.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -349,7 +349,7 @@ footer{
     margin: auto;
     margin-top: 10px;
     height: 75px;
-    background-image: url('./content/icons./clock.png');
+    background-image: url('../content/icons../clock.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -415,7 +415,7 @@ footer{
 .site-content-pattern{
     height: 90px;
     width: 90px;
-    background-image: url('./content/shapes/shape-lines.png');
+    background-image: url('../content/shapes/shape-lines.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -485,7 +485,7 @@ footer{
 .grade-section-pattern{
     height: 120px;
     width: 120px;
-    background-image: url('./content/shapes/grade-shape.png');
+    background-image: url('../content/shapes/grade-shape.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -524,7 +524,7 @@ footer{
 }
 .stat-logo-bg{
     height: 90px;
-    background-image: url('./content/shapes/stat-icon-shape.png');
+    background-image: url('../content/shapes/stat-icon-shape.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -532,7 +532,7 @@ footer{
 }
 #stat-icon-1{
     height: 90px;
-    background-image: url('./content/icons/ebook.png');
+    background-image: url('../content/icons/ebook.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -540,7 +540,7 @@ footer{
 }
 #stat-icon-2{
     height: 90px;
-    background-image: url('./content/icons/reading-book.png');
+    background-image: url('../content/icons/reading-book.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -548,7 +548,7 @@ footer{
 }
 #stat-icon-3{
     height: 90px;
-    background-image: url('./content/icons/rating.png');
+    background-image: url('../content/icons/rating.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -556,7 +556,7 @@ footer{
 }
 #stat-icon-4{
     height: 90px;
-    background-image: url('./content/icons/driving-instructor.png');
+    background-image: url('../content/icons/driving-instructor.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -574,7 +574,7 @@ footer{
 .stat-pattern{
     height: 30px;
     width: 30px;
-    background-image: url('./content/shapes/stats-pattern.png');
+    background-image: url('../content/shapes/stats-pattern.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -647,7 +647,7 @@ footer{
 .become-instructor-pattern{
     height: 40px;
     width: 40px;
-    background-image: url('./content/shapes/become-instructor-shape.png');
+    background-image: url('../content/shapes/become-instructor-shape.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -658,7 +658,7 @@ footer{
 .become-instructor-image{
     height: 700px;
     width: 700px;
-    background-image: url('./content/images/svg/become-teacher.svg');
+    background-image: url('../content/images/svg/become-teacher.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -667,7 +667,7 @@ footer{
 .contact-us-section{
     height: 30%;
     width: 100%;
-    background-image: url('./content/images/pattern./contact-us-pattern.jpg');
+    background-image: url('../content/images/pattern../contact-us-pattern.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -714,7 +714,7 @@ footer{
 .contact-us-pattern-plane{
     height: 120px;
     width: 170px;
-    background-image: url('./content/shapes./contact-us-plane.png');
+    background-image: url('../content/shapes../contact-us-plane.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -725,7 +725,7 @@ footer{
 .contact-us-pattern-lines{
     height: 240px;
     width: 200px;
-    background-image: url('./content/shapes./contact-us-lines.png');
+    background-image: url('../content/shapes../contact-us-lines.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
