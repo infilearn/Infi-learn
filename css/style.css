@@ -316,7 +316,7 @@ footer{
 .viewbox-common-img-bg{
     padding: 10px 15px 5px 15px;
     height: 120px;
-    background-image: url('../content/shapes../common-bg-viewbox.png');
+    background-image: url('../content/shapes/common-bg-viewbox.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -349,7 +349,7 @@ footer{
     margin: auto;
     margin-top: 10px;
     height: 75px;
-    background-image: url('../content/icons../clock.png');
+    background-image: url('../content/icons/clock.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -664,10 +664,11 @@ footer{
     background-size: contain; 
     background-blend-mode: multiply;
 }
+/* contact us secion */
 .contact-us-section{
     height: 30%;
     width: 100%;
-    background-image: url('../content/images/pattern../contact-us-pattern.jpg');
+    background-image: url('../content/images/pattern/contact-us-pattern.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -714,7 +715,7 @@ footer{
 .contact-us-pattern-plane{
     height: 120px;
     width: 170px;
-    background-image: url('../content/shapes../contact-us-plane.png');
+    background-image: url('../content/shapes/contact-us-plane.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -725,7 +726,7 @@ footer{
 .contact-us-pattern-lines{
     height: 240px;
     width: 200px;
-    background-image: url('../content/shapes../contact-us-lines.png');
+    background-image: url('../content/shapes/contact-us-lines.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
