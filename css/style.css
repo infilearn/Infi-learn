@@ -16,6 +16,7 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    max-width: 100%;
 }
 header{
     margin: 0px;
