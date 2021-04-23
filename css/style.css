@@ -209,7 +209,7 @@ footer{
 .footer-copyright-and-policy{
     display: flex;
     padding: 2% 0% 0% 0%;
-    gap: 50%;
+    gap: 47%;
 }
 .footer-copyright p{
     color: rgba(255, 255, 255, 0.6);
