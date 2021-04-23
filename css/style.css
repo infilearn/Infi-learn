@@ -153,7 +153,9 @@ footer{
     gap: 20px;
 }
 .footer-branding-social-media img:hover{
+    transition: 600ms ease-in-out;
     transform: scale(1.25);
+
 }
 .footer-explore-nav{
     line-height: 25px;
