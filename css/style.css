@@ -1117,6 +1117,7 @@ input[type='radio']:checked:after {
   margin-top: 5px;
   text-decoration: none;
   font-family: 'Nunito';
+  cursor: pointer;
 }
 .login-modal-hr{
   width: 90%;
@@ -1140,4 +1141,5 @@ input[type='radio']:checked:after {
   color: #fe4a55;
   font-size: 17px;
   font-family: 'Nunito';
+  cursor: pointer;
 }
