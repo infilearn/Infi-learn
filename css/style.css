@@ -414,6 +414,7 @@ footer{
     font-size: 22px;
     font-weight: bolder;
     font-family: 'Nunito';
+    cursor: pointer;
 }
 
 .site-content-short-branding{
@@ -675,6 +676,7 @@ footer{
     font-size: 15px;
     font-weight: 400;
     font-family: 'Nunito';
+    cursor: pointer;
 }
 .become-instructor-info-video-info{
     color: black;
