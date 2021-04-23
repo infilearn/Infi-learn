@@ -702,8 +702,8 @@ footer{
     top: 150px;
 }
 .become-instructor-image{
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     background-image: url('../content/images/svg/become-teacher.svg');
     background-position: center;
     background-repeat: no-repeat;
