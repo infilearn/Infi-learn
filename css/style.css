@@ -995,11 +995,14 @@ input[type='radio']:checked:after {
     color: #fe4a55;
     text-decoration: none;
     font-family: 'Nunito';
+    cursor: pointer;
 }
 
 
 /* Login Modal */
-
+#modal{
+    z-index:-1;
+}
 .modal {
   background:rgba(0,0,0,0.7);
   position:fixed;
@@ -1010,12 +1013,11 @@ input[type='radio']:checked:after {
   bottom:0px;
   transition:all .5s ease-in-out;
   opacity:0;
-  z-index:2;
 }
 .modal:target {
   opacity:1;
   transition:all .5s ease-in-out;
-  z-index:3;
+  z-index:-1;
 }
 .modal-content {
   position:fixed;
@@ -1049,7 +1051,7 @@ input[type='radio']:checked:after {
   text-align:center;
   border-radius:0 4px 0 0;
   font-family: 'Nunito';
-
+    cursor: pointer;
 }
 .modal-close:hover {
   color:black;

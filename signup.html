@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Infilearn</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -22,7 +23,7 @@
                 </ul>
             </div>
             <div class="desktop-login-button">
-                <button class="header-login-button" onclick="window.location.href='#modal';"><img class="login-button-svg" src="content/icons/login-button-svg.png" alt="login-button-svg" height="20px" width="20px"> Login</button>
+                <button class="header-login-button" onclick="ModalShow();"><img class="login-button-svg" src="content/icons/login-button-svg.png" alt="login-button-svg" height="20px" width="20px"> Login</button>
             </div>
         </div>
     </header>
@@ -177,7 +178,7 @@
                         </div>
                     </div>
                     <div class="login-modal-link">
-                        <p>Already have an account? <a href="#">Log In</a></p>
+                        <p>Already have an account? <a onclick="ModalShow();">Log In</a></p>
                     </div>
                 </div>
             </div>
@@ -247,8 +248,8 @@
     
 <div class="modal" id="modal">
     <div class="modal-content">
-      <a href="#" class="modal-close" title="Close Modal">X</a>
-      <h3>Infilearn</h3>
+        <a onclick="HideModal();" class="modal-close" title="Close Modal">X</a>
+        <h3>Infilearn</h3>
       <div class="modal-area">
           <div class="modal-input">
             <label for="username">USERNAME</label><br>
