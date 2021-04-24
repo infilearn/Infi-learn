@@ -1303,7 +1303,6 @@ input[type='radio']:checked:after {
 
 .subject-dashboard-nav-all-chapter-names::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px #211638 ;
 	background-color: #211638;
     border-radius: 10px;
 }
