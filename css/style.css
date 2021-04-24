@@ -1513,6 +1513,11 @@ input[type='radio']:checked:after {
     font-family: 'Nunito';
     font-weight: 600;
     cursor: pointer;
+
+}
+.video-section-play-vid-btn:hover{
+    transition: 200ms ease-in-out;
+    transform: scale(0.90);
 }
 .subject-dashboard-content-section-chapter-single-vid-play-btn-author p{
     text-align: right;
