@@ -1266,7 +1266,7 @@ input[type='radio']:checked:after {
     box-shadow: #666 0px 2px 14px -4px;
     padding: 15px;
     animation:forwards down 150ms ease-in-out;
-
+    overflow: hidden;
 }
 @keyframes down {
     0%{
