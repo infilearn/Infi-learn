@@ -255,7 +255,7 @@ footer{
     height: 80%;
     width: 100%;
     background-color: rgb(218, 218, 218);
-    background-image: url('../content/images/banner/banner.jpg');
+    background-image: url('../content/images/banner/banner.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -1185,7 +1185,7 @@ input[type='radio']:checked:after {
     background-color: white;
     display: flex;
 }
-.subject-dashboard-search-bar-box input[type=search]{
+.subject-dashboard-search-bar-box input[type=text]{
     height: 40px;
     width: 305px;
     border: none;
