@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Infilearn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="select-subject-desktop-header">
+            <div class="select-subject-desktop-logo">
+                <a href="index.html">
+                    <img class="infilearn-logo" src="content/icons/new.png" alt="Infilearn Logo" height="60px">
+                </a>
+            </div>
+            <div class="select-subject-dashboard-header-profile">
+                <div class="select-subject-dashboard-header-profile-box">
+                    <p>Faijan Momin</p>
+                    <div class="select-subject-dashboard-profile-dp" onclick="showDrpDwn();">
+                        <img src="https://static5.depositphotos.com/1049184/509/i/600/depositphotos_5099757-stock-photo-the-man-with-no-face.jpg" alt="user profile" height="35px" width="35px">
+                    </div> <!--Dashboard user Profile Photo-->
+                </div>
+                <div id="subject-dashboard-profile-drowdown" class="subject-dashboard-profile-drowdown">
+                    <a href="#">Profile</a>
+                    <hr class="dropdwon-profile-hr">
+                    <a href="index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Select subject -->
+
+    <section class="select-subject-section">
+        <div class="select-subject-div">
+            <div class="select-subject-div-title">
+                <h2>Select a subject</h2>
+            </div>
+            <div class="select-subject-div-all-subjects">
+                <!-- First Subject -->
+                <div class="select-subject-single-sub" onclick="window.location.assign('dashboard.html');">
+                    <div class="select-subject-img">
+                        <img src="content/icons/compass.svg" alt="subject image" height="120px">
+                    </div>
+                    <div class="selec-subject-div-subject-name">
+                        <h3>Mathematics</h3>
+                    </div>
+                </div>
+                <!-- Second Subject -->
+                <div class="select-subject-single-sub" onclick="window.location.assign('dashboard.html');">
+                    <div class="select-subject-img">
+                        <img src="content/icons/science.svg" alt="subject image" height="120px">
+                    </div>
+                    <div class="selec-subject-div-subject-name">
+                        <h3>Science</h3>
+                    </div>
+                </div>
+                <!-- Third Subject -->
+                <div class="select-subject-single-sub" onclick="window.location.assign('dashboard.html');">
+                    <div class="select-subject-img">
+                        <img src="content/icons/dictionary.svg" alt="subject image" height="120px">
+                    </div>
+                    <div class="selec-subject-div-subject-name">
+                        <h3>English</h3>
+                    </div>
+                </div>
+                <!-- Fourth Subject -->
+                <div class="select-subject-single-sub" onclick="window.location.assign('dashboard.html');">
+                    <div class="select-subject-img">
+                        <img src="content/icons/leader.svg" alt="subject image" height="120px">
+                    </div>
+                    <div class="selec-subject-div-subject-name">
+                        <h3>Social Science</h3>
+                    </div>
+                </div>
+                <!-- Fifth Subject -->
+                <div class="select-subject-single-sub" onclick="window.location.assign('dashboard.html');">
+                    <div class="select-subject-img">
+                        <img src="content/icons/marathi.png" alt="subject image" height="120px">
+                    </div>
+                    <div class="selec-subject-div-subject-name">
+                        <h3>Marathi</h3>
+                    </div>
+                </div>
+                <!-- Sixth Subject -->
+                <div class="select-subject-single-sub" onclick="window.location.assign('dashboard.html');">
+                    <div class="select-subject-img">
+                        <img src="content/icons/hindi.png" alt="subject image" height="120px">
+                    </div>
+                    <div class="selec-subject-div-subject-name">
+                        <h3>Hindi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Become an Instructor Section 5-->
+    
+    <section class="become-instructor-section">
+        <div class="become-instructor-div">
+            <div class="become-instructor-info">
+                <h2 class="become-instructor-info-title">Become an instructor</h2>
+                <p class="become-instructor-info-desc">InfiLearn comes with great feature, where anyone can teach for free</p>
+                <button class="become-instructor-info-button" onclick="ModalShow();">Start teaching today</button>
+                <p class="become-instructor-info-video-info">Check out a video tutorial on <a href="#">How you can?</a></p>
+                
+                <!-- <div class="become-instructor-pattern"></div>  Pattern -->
+            </div>
+
+            <div class="become-instructor-image"></div>
+        </div>
+    </section>
+
+</body>
+</html>
