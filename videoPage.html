@@ -1,0 +1,394 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Infilearn</title>
+    <link rel="stylesheet" href="css/videopage.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="chapter-video-page-desktop-header">
+            <div class="select-subject-desktop-logo">
+                <a href="index.html">
+                    <img class="infilearn-logo" src="content/icons/new.png" alt="Infilearn Logo" height="60px">
+                </a>
+            </div>
+            <div class="select-subject-dashboard-header-profile">
+                <div class="select-subject-dashboard-header-profile-box">
+                    <p id="chapter-video-page-user-name">Faijan Momin</p>
+                    <div class="select-subject-dashboard-profile-dp" onclick="showDrpDwn();">
+                        <img src="https://static5.depositphotos.com/1049184/509/i/600/depositphotos_5099757-stock-photo-the-man-with-no-face.jpg" alt="user profile" height="35px" width="35px">
+                    </div> <!--Dashboard user Profile Photo-->
+                </div>
+                <div id="subject-dashboard-profile-drowdown" class="subject-dashboard-profile-drowdown">
+                    <a href="#">Profile</a>
+                    <hr class="dropdwon-profile-hr">
+                    <a href="index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Player Section  -->
+    <section class="section-video-page-video-player-section">
+        <div class="section-video-player-div">
+            <div class="section-video-player-back-btn-and-chapter-title">
+                <div class="section-video-player-back-btn">
+                    <button onclick="window.location.assign('dashboard.html');"><img src="content/icons/arrow-btn.svg" alt="back button" class="section-video-player-back-btn-img" height="16px" ></button>
+                </div>
+                <div class="section-video-player-chapter-title">
+                    <h2>Android Native Libraries and their tools</h2>
+                </div>
+            </div>
+            <div class="section-video-player-video-container">
+                <div class="container">
+                    <div class="video-player-container">
+                        <div class="video-container">
+                            <video id="media-video">
+                                <source src="https://www.w3schools.com/html/mov_bbb.mp4#t=0.1" type="video/mp4">
+                                <source src="https://www.w3schools.com/html/mov_bbb.ogg#t=0.1" type="video/ogg">
+                             </video>
+                        </div>
+                        <div class="player-container">					
+                            <div class="play-control">						
+                                <div class="play-button"><!--Play btn--></div>
+                                <div class="pause-button"><!--Pause btn--></div>
+                            </div>
+                            <div class="volume-control">
+                                <div class="volume-button"><!--Speaker btn--></div>
+                                <div class="volume-button-mute"><!--Mute btn--></div>
+                            </div>
+                            <div class="indicator">0:00 / 0:00</div>
+                            <div class="progress">
+                                <div class="progress-background"></div>
+                                <div class="progress-over"></div>
+                                <div class="progress-hidden"></div>
+                            </div>
+                            <div class="fullscreen-button"><!--Fullscreen btn--></div>
+                        </div>
+                    </div>
+                    <div class="container-inner"></div>
+                </div>
+            </div>
+            <div class="section-video-player-video-title-and-details">
+                <div class="section-video-player-video-title">
+                    <h2>Native Android</h2>
+                </div>
+                <div class="section-video-player-video-details">
+                    <div class="section-video-player-video-detail-author">
+                        <p>Faijan Momin</p>
+                    </div>
+                    <div class="section-video-player-video-detail-view-release-date">
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="video-detai-end-hr">
+            <div class="section-video-player-video-desc-and-data">
+                <div class="section-video-player-video-tab-pane">
+                    <ul>
+                        <li class="active"><a onclick="showDesc();">Description</a></li>
+                        <li><a onclick="showqna();">Q&A</a></li>
+                        <li><a onclick="showFiles();">Study Material</a></li>
+                    </ul>
+                    <div class="active_underline"></div>
+                </div>
+                <div class="section-video-player-video-data-section">
+                    <!-- Video data description -->
+                    <div id="video-description" class="section-video-player-video-data-description">
+                        <p>Focusing is about saying No. <br>
+                            & <br>
+                            Focusing is about saying No. <br>
+                            Descriptor Q. Study Materials <br>
+                            The scope of ai Computer vision a. their tools I a. android native. <br>
+                            The scope of al computer vision and their tools I and android natIvethe scope of ai computer vision and their tcds I and a.roid nativethe scope of ai computer vision and their tools I and android native. <br>
+                            Scope of ai computer vision and their tools I ancl androld nativethe scope of ai computer vlsion and their tools I and android native &header logo topic name profile with bat. <br>
+                            //video title chapter name creator name date view <br>
+                            ilvicleo player Description> title, date, creator,views QUA >like Comments>answer button Study materials . thumbnails>pdf thumbnailsfitle OMer topics>right navigation with thumbnail /thumbnail 
+                        </p>
+                    </div>
+                    <!-- Video data QNA -->
+                    <div id="video-Qna" class="section-video-player-video-data-qna">
+                        <div class="section-video-player-video-data-qna-add-comment">
+                            <div class="section-video-player-video-data-qna-add-comment-input">
+                                <input type="text" name="video-comment" id="video-comment" placeholder="Ask a question">
+                            </div>
+                            <div class="section-video-player-video-data-qna-submit-comment-btn">
+                                <input type="button" value="Cancel">
+                                <input type="submit" value="Comment">
+                            </div>
+                        </div>
+                        <div class="section-video-player-video-data-qna-all-comments">
+                            <!-- first comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- second comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- third comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- fouth comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- fifth comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- sixth comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- seventh comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+                            <!-- eight comment -->
+                            <div class="section-video-player-video-data-qna-single-comment">
+                                <div class="section-video-player-video-data-qna-single-comment-username">
+                                    <h3>Faijan Momin</h3>
+                                </div>
+                                <div class="section-video-player-video-data-qna-single-comment-user-comment">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur ea eligendi officiis nihil velit rerum ab, in harum corporis nisi cupiditate inventore quo saepe sunt corrupti tenetur perferendis molestiae.</p>
+                                </div>
+                                <hr class="single-video-comment-hr">
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Video data Files -->
+                    <div id="video-files" class="section-video-player-video-data-files">
+                        <div class="section-video-player-video-data-all-files">
+                            <!-- 1 file -->
+                            <div class="section-video-player-video-data-single-file" onclick="window.location.assign('http://2.droppdf.com/files/vefiy/android-native-development-kit-cookbook.pdf');">
+                                <div class="section-video-player-video-data-single-file-img">
+                                    <!-- File Image -->
+                                </div>
+                                <div class="section-video-player-video-data-single-file-name">
+                                    <h3>What is Android Native</h3>
+                                </div>
+                            </div>
+                            <!-- 2 file -->
+                            <div class="section-video-player-video-data-single-file" onclick="window.location.assign('http://2.droppdf.com/files/vefiy/android-native-development-kit-cookbook.pdf');">
+                                <div class="section-video-player-video-data-single-file-img">
+                                    <!-- File Image -->
+                                </div>
+                                <div class="section-video-player-video-data-single-file-name">
+                                    <h3>What is Android Native</h3>
+                                </div>
+                            </div>
+                            <!-- 3 file -->
+                            <div class="section-video-player-video-data-single-file" onclick="window.location.assign('http://2.droppdf.com/files/vefiy/android-native-development-kit-cookbook.pdf');">
+                                <div class="section-video-player-video-data-single-file-img">
+                                    <!-- File Image -->
+                                </div>
+                                <div class="section-video-player-video-data-single-file-name">
+                                    <h3>What is Android Native</h3>
+                                </div>
+                            </div>
+                            <!-- 4 file -->
+                            <div class="section-video-player-video-data-single-file" onclick="window.location.assign('http://2.droppdf.com/files/vefiy/android-native-development-kit-cookbook.pdf');">
+                                <div class="section-video-player-video-data-single-file-img">
+                                    <!-- File Image -->
+                                </div>
+                                <div class="section-video-player-video-data-single-file-name">
+                                    <h3>What is Android Native</h3>
+                                </div>
+                            </div>
+                            <!-- 5 file -->
+                            <div class="section-video-player-video-data-single-file" onclick="window.location.assign('http://2.droppdf.com/files/vefiy/android-native-development-kit-cookbook.pdf');">
+                                <div class="section-video-player-video-data-single-file-img">
+                                    <!-- File Image -->
+                                </div>
+                                <div class="section-video-player-video-data-single-file-name">
+                                    <h3>What is Android Native</h3>
+                                </div>
+                            </div>
+                            <!-- 6 file -->
+                            <div class="section-video-player-video-data-single-file" onclick="window.location.assign('http://2.droppdf.com/files/vefiy/android-native-development-kit-cookbook.pdf');">
+                                <div class="section-video-player-video-data-single-file-img">
+                                    <!-- File Image -->
+                                </div>
+                                <div class="section-video-player-video-data-single-file-name">
+                                    <h3>What is Android Native</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Video Suggestion Division -->
+        <div class="section-video-suggestion-div">
+            <div class="section-video-suggestion-title">
+                <h3>Other Topics</h3>
+            </div>
+            <div class="section-video-suggestion-all-videos">
+                <!-- 1st suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 2 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 3 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 4 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 5 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 6 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 7 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 8 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+                <!-- 9 suggestion video -->
+                <div class="section-video-suggestion-single-video">
+                    <div class="section-video-suggestion-video-thumbnail">
+                        <img src="content/images/thumbnails/costa-rica.png" alt="video thumbnail" height="85px">
+                    </div>
+                    <div class="section-video-suggestion-video-title-and-info">
+                        <h4>The Scope of ai computer vision</h4>
+                        <h5>Chapter: Android Tools</h5>
+                        <p>Faijan Momin</p>
+                        <p>828 views•19 Apr 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/videopage.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

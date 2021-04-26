@@ -1615,3 +1615,13 @@ input[type='radio']:checked:after {
     font-family: 'Nunito';
     text-align: center;
 }
+
+/* Subject video Page */
+.chapter-video-page-desktop-header{
+    display: flex;
+    background-color: #221638;
+}
+#chapter-video-page-user-name{
+    color: white;
+}
+/* Header Style Imported from select subject panel */
